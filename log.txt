@@ -1,0 +1,211 @@
+/var/log:
+total 1144
+drwxrwxr-x   9 root      syslog            4096 Jun 10 20:12 .
+drwxr-xr-x  14 root      root              4096 Jun 10 20:12 ..
+lrwxrwxrwx   1 root      root                39 Sep 28  2024 README -> ../../usr/share/doc/systemd/README.logs
+-rw-r--r--   1 root      root                 0 May  5 09:35 alternatives.log
+-rw-r--r--   1 root      root             16231 Apr 20 16:59 alternatives.log.1
+-rw-r--r--   1 root      root               505 Mar 24 10:46 alternatives.log.2.gz
+-rw-r--r--   1 root      root              1695 Sep 28  2024 alternatives.log.3.gz
+drwxr-xr-x   2 root      root              4096 Jun 10 20:12 apt
+-rw-r-----   1 syslog    adm               4102 Jun 10 20:14 auth.log
+-rw-r-----   1 syslog    adm               2155 Jun 10 19:57 auth.log.1
+-rw-r-----   1 syslog    adm                353 May 27 16:07 auth.log.2.gz
+-rw-r-----   1 syslog    adm                337 May 18 10:10 auth.log.3.gz
+-rw-r-----   1 syslog    adm                796 May  6 10:15 auth.log.4.gz
+-rw-r--r--   1 root      root            118497 Sep 28  2024 bootstrap.log
+-rw-rw----   1 root      utmp                 0 Jun  2 14:06 btmp
+-rw-rw----   1 root      utmp                 0 May  5 09:35 btmp.1
+drwxr-xr-x   2 root      root              4096 Sep  6  2024 dist-upgrade
+-rw-r-----   1 root      adm              35075 Jun 10 19:57 dmesg
+-rw-r-----   1 root      adm              35224 Jun  2 14:07 dmesg.0
+-rw-r-----   1 root      adm              10364 May 27 16:08 dmesg.1.gz
+-rw-r-----   1 root      adm              10363 May 18 12:43 dmesg.2.gz
+-rw-r-----   1 root      adm              10422 May 18 10:11 dmesg.3.gz
+-rw-r-----   1 root      adm              10282 May  6 10:15 dmesg.4.gz
+-rw-r--r--   1 root      root              1350 Jun 10 20:12 dpkg.log
+-rw-r--r--   1 root      root            131581 Apr 20 16:59 dpkg.log.1
+-rw-r--r--   1 root      root              2051 Mar 24 10:46 dpkg.log.2.gz
+-rw-r--r--   1 root      root             30653 Sep 28  2024 dpkg.log.3.gz
+-rw-r--r--   1 root      root                 0 Sep 28  2024 faillog
+-rw-r--r--   1 root      root               790 Sep 28  2024 fontconfig.log
+drwxr-sr-x+  3 root      systemd-journal   4096 Dec  9  2024 journal
+-rw-r-----   1 syslog    adm                314 Jun 10 20:08 kern.log
+-rw-r-----   1 syslog    adm              93022 Jun 10 19:57 kern.log.1
+-rw-r-----   1 syslog    adm              28985 May 27 16:07 kern.log.2.gz
+-rw-r-----   1 syslog    adm              29195 May  6 10:15 kern.log.3.gz
+-rw-r-----   1 syslog    adm              19469 Apr 29 11:06 kern.log.4.gz
+drwxr-xr-x   2 landscape landscape         4096 Sep 28  2024 landscape
+-rw-rw-r--   1 root      utmp                 0 Sep 28  2024 lastlog
+drwxr-xr-x   2 root      adm               4096 Jun 10 20:12 nginx
+drwx------   2 root      root              4096 Sep 28  2024 private
+-rw-r-----   1 syslog    adm              36906 Jun 10 20:14 syslog
+-rw-r-----   1 syslog    adm             168928 Jun 10 19:57 syslog.1
+-rw-r-----   1 syslog    adm              32512 May 27 16:07 syslog.2.gz
+-rw-r-----   1 syslog    adm              16512 May 18 10:10 syslog.3.gz
+-rw-r-----   1 syslog    adm              62367 May  6 10:15 syslog.4.gz
+-rw-r--r--   1 root      root                 0 Apr  2 12:50 ubuntu-advantage-apt-hook.log
+drwxr-x---   2 root      adm               4096 Jun  2 14:06 unattended-upgrades
+-rw-rw-r--   1 root      utmp            129024 Jun 10 19:57 wtmp
+
+/var/log/apt:
+total 68
+drwxr-xr-x 2 root root    4096 Jun 10 20:12 .
+drwxrwxr-x 9 root syslog  4096 Jun 10 20:12 ..
+-rw-r--r-- 1 root root   20708 Jun 10 20:12 eipp.log.xz
+-rw-r--r-- 1 root root     229 Jun 10 20:12 history.log
+-rw-r--r-- 1 root root    2463 Apr 20 16:59 history.log.1.gz
+-rw-r--r-- 1 root root     582 Mar 24 10:46 history.log.2.gz
+-rw-r--r-- 1 root root    6646 Sep 28  2024 history.log.3.gz
+-rw-r----- 1 root adm     1269 Jun 10 20:12 term.log
+-rw-r----- 1 root adm     6028 Apr 20 16:59 term.log.1.gz
+-rw-r----- 1 root adm     1282 Mar 24 10:46 term.log.2.gz
+
+/var/log/dist-upgrade:
+total 8
+drwxr-xr-x 2 root root   4096 Sep  6  2024 .
+drwxrwxr-x 9 root syslog 4096 Jun 10 20:12 ..
+
+/var/log/journal:
+total 32
+drwxr-sr-x+ 3 root systemd-journal  4096 Dec  9  2024 .
+drwxrwxr-x  9 root syslog           4096 Jun 10 20:12 ..
+drwxr-sr-x+ 2 root systemd-journal 20480 Jun 10 19:58 a262e402254546a49f3df781596dba13
+
+/var/log/journal/a262e402254546a49f3df781596dba13:
+total 446152
+drwxr-sr-x+ 2 root systemd-journal   20480 Jun 10 19:58 .
+drwxr-sr-x+ 3 root systemd-journal    4096 Dec  9  2024 ..
+-rw-r-----+ 1 root systemd-journal 8388608 Jun 10 20:14 system.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr 20 17:14 system@00063383d1798f3c-13539046ed4a9041.journal~
+-rw-r-----+ 1 root systemd-journal 8388608 Apr 24 16:39 system@000633e3c216dfd1-bd66b9334858c5f5.journal~
+-rw-r-----+ 1 root systemd-journal 8388608 Apr 29 11:06 system@000633f68dad017d-81e9aa1b56556bb6.journal~
+-rw-r-----+ 1 root systemd-journal 8388608 Apr 30 09:32 system@0006345b2fccb3d5-0731ba2fb9daf404.journal~
+-rw-r-----+ 1 root systemd-journal 8388608 May  5 09:36 system@0006345b33f201c0-74dc309964062a01.journal~
+-rw-r-----+ 1 root systemd-journal 8388608 May  5 09:51 system@0006345b6c6dddf2-1e0e6bec2f131a90.journal~
+-rw-r-----+ 1 root systemd-journal 8388608 May  5 09:52 system@0006346fdb6ff65d-0bd92b9c7301ebfa.journal~
+-rw-r-----+ 1 root systemd-journal 8388608 May  6 10:15 system@0006356133bb8188-31402e9ca76f62f9.journal~
+-rw-r-----+ 1 root systemd-journal 8388608 May 18 10:12 system@0006356352542ca6-192f843bae0d0762.journal~
+-rw-r-----+ 1 root systemd-journal 8388608 May 18 12:43 system@0006361b3a9dce12-9b098b035511c024.journal~
+-rw-r-----+ 1 root systemd-journal 8388608 May 27 16:21 system@000636923efd969d-b9f99fb694322d01.journal~
+-rw-r-----+ 1 root systemd-journal 8388608 Jun  2 14:08 system@000637381280348c-a7f7fcb97b96b761.journal~
+-rw-r-----+ 1 root systemd-journal 8388608 Jun  2 14:07 system@0988b6fdf4ec4a98b57b4292ed380c4b-000000000000fe5d-000636923efca7b4.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Jun  2 14:07 system@0988b6fdf4ec4a98b57b4292ed380c4b-00000000000100ce-000636924230f1cd.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr 24 16:38 system@0c6b64c8791a4f54b03a880ba64ea765-000000000000e2d5-00063383d1790156.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Jun 10 19:57 system@1b52f98e36ca457f8ea85768328966d8-0000000000010109-00063738127f5552.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Jun 10 19:58 system@1b52f98e36ca457f8ea85768328966d8-00000000000103ad-000637381437e7b1.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Jun 10 19:58 system@1b52f98e36ca457f8ea85768328966d8-00000000000103bc-0006373815a6d3f4.journal
+-rw-r-----+ 1 root systemd-journal 8388608 May 27 16:07 system@2c288072f59247b482fa9f4538e81956-000000000000fb52-0006361b3a9cd414.journal
+-rw-r-----+ 1 root systemd-journal 8388608 May 27 16:07 system@2c288072f59247b482fa9f4538e81956-000000000000fded-0006361b3bd06380.journal
+-rw-r-----+ 1 root systemd-journal 8388608 May 27 16:08 system@2c288072f59247b482fa9f4538e81956-000000000000fdfa-0006361b3d3f703d.journal
+-rw-r-----+ 1 root systemd-journal 8388608 May  5 09:35 system@868ce8a2c00349679297f02d9886a535-000000000000eab7-0006345b2fcc30e4.journal
+-rw-r-----+ 1 root systemd-journal 8388608 May  5 09:35 system@868ce8a2c00349679297f02d9886a535-000000000000ed51-0006345b31086905.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr 20 16:54 system@9cbde6535ca3452f85012d6f5ae93ca9-000000000000df3d-000633338f4554ed.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr 30 09:31 system@a51e21a41bfb4f1d902b04956b3c4808-000000000000e81e-000633f68dac4ac7.journal
+-rw-r-----+ 1 root systemd-journal 8388608 May 18 10:11 system@b333a38c0a66406f8a4159e9ea2be49a-000000000000f61e-0006356133bb0ace.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:08 system@cc743904b4b446af8645a0b2e4afc2be-000000000000dea3-0006320604ae801c.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:08 system@cc743904b4b446af8645a0b2e4afc2be-000000000000dea5-0006320604f9ea82.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:08 system@cc743904b4b446af8645a0b2e4afc2be-000000000000dea7-0006320605462b60.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:08 system@cc743904b4b446af8645a0b2e4afc2be-000000000000deae-000632060593080d.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:08 system@cc743904b4b446af8645a0b2e4afc2be-000000000000deb1-0006320605df757b.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:08 system@cc743904b4b446af8645a0b2e4afc2be-000000000000deb4-00063206062bd512.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:08 system@cc743904b4b446af8645a0b2e4afc2be-000000000000deb7-000632060677cd1c.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:08 system@cc743904b4b446af8645a0b2e4afc2be-000000000000deb9-0006320606c4206a.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:08 system@cc743904b4b446af8645a0b2e4afc2be-000000000000debb-0006320607106f20.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:09 system@cc743904b4b446af8645a0b2e4afc2be-000000000000debd-00063206075d5cf7.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:09 system@cc743904b4b446af8645a0b2e4afc2be-000000000000debf-0006320607a9a772.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:09 system@cc743904b4b446af8645a0b2e4afc2be-000000000000dec1-0006320607f61ba8.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:09 system@cc743904b4b446af8645a0b2e4afc2be-000000000000dec3-0006320608429344.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:09 system@cc743904b4b446af8645a0b2e4afc2be-000000000000dec5-00063206088ea262.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:09 system@cc743904b4b446af8645a0b2e4afc2be-000000000000dec7-0006320608dba6f3.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:09 system@cc743904b4b446af8645a0b2e4afc2be-000000000000dece-000632060928258c.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:09 system@cc743904b4b446af8645a0b2e4afc2be-000000000000ded1-000632060973dbe0.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:09 system@cc743904b4b446af8645a0b2e4afc2be-000000000000ded4-0006320609c0d160.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:09 system@cc743904b4b446af8645a0b2e4afc2be-000000000000ded7-000632060a0d5049.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:09 system@cc743904b4b446af8645a0b2e4afc2be-000000000000ded9-000632060a59d322.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:09 system@cc743904b4b446af8645a0b2e4afc2be-000000000000dedb-000632060aa6ab3e.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:10 system@cc743904b4b446af8645a0b2e4afc2be-000000000000dedd-000632060af22a71.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:10 system@cc743904b4b446af8645a0b2e4afc2be-000000000000dedf-000632060b3ebf90.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:10 system@cc743904b4b446af8645a0b2e4afc2be-000000000000dee1-000632060b8b1971.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:10 system@cc743904b4b446af8645a0b2e4afc2be-000000000000dee3-000632060bd7b767.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:10 system@cc743904b4b446af8645a0b2e4afc2be-000000000000dee5-000632060c2449dd.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:10 system@cc743904b4b446af8645a0b2e4afc2be-000000000000dee7-000632060c70c109.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:10 system@cc743904b4b446af8645a0b2e4afc2be-000000000000deee-000632060cbcd0cd.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:10 system@cc743904b4b446af8645a0b2e4afc2be-000000000000def1-000632060d0911cd.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:10 system@cc743904b4b446af8645a0b2e4afc2be-000000000000def4-000632060d556252.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:10 system@cc743904b4b446af8645a0b2e4afc2be-000000000000def7-000632060da23a60.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:10 system@cc743904b4b446af8645a0b2e4afc2be-000000000000def9-000632060dee639d.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:10 system@cc743904b4b446af8645a0b2e4afc2be-000000000000defb-000632060e3add69.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:11 system@cc743904b4b446af8645a0b2e4afc2be-000000000000defd-000632060e874722.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:11 system@cc743904b4b446af8645a0b2e4afc2be-000000000000deff-000632060ed3ee0a.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:11 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df01-000632060f206b97.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:11 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df03-000632060f6c9e71.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:11 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df05-000632060fb8ffcb.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:11 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df07-000632061005eddc.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:11 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df0e-0006320610526e76.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:11 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df11-00063206109f1144.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:11 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df14-0006320610eada5e.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:11 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df17-000632061137b454.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:11 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df19-00063206118415aa.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:11 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df1b-0006320611d016f2.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:12 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df1d-00063206121ce444.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:12 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df1f-000632061268f533.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:12 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df21-0006320612b576ee.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:12 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df23-00063206130208c4.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:12 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df25-00063206134ecbfc.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:12 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df27-00063206139b1b26.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:12 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df2e-0006320613e79ed7.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:12 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df31-000632061433e9d6.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:12 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df34-00063206148092bd.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:12 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df37-0006320614cce668.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:12 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df39-0006320615190623.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:12 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df3b-000632061566c6a8.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr 29 11:06 system@ce1a61e5573b470ea66c9cf47776bd2b-000000000000e577-000633e3c215fb55.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Jun 10 20:14 user-1000.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr 20 17:14 user-1000@00063383d25ab931-9c30c1f5a1d92166.journal~
+-rw-r-----+ 1 root systemd-journal 8388608 May  5 09:50 user-1000@0006346fdd02ff4c-e1310f65e724ab0a.journal~
+-rw-r-----+ 1 root systemd-journal 8388608 May  6 10:15 user-1000@000635613606097f-0b97ae12edd068a7.journal~
+-rw-r-----+ 1 root systemd-journal 8388608 Jun  2 14:07 user-1000@0988b6fdf4ec4a98b57b4292ed380c4b-00000000000100cd-00063692422ad5e3.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr 24 16:38 user-1000@0c6b64c8791a4f54b03a880ba64ea765-000000000000e535-00063383d25ab5e1.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Jun 10 19:57 user-1000@1b52f98e36ca457f8ea85768328966d8-000000000001037e-0006373812aee694.journal
+-rw-r-----+ 1 root systemd-journal 8388608 May 27 16:07 user-1000@2c288072f59247b482fa9f4538e81956-000000000000fdad-0006361b3d7dd611.journal
+-rw-r-----+ 1 root systemd-journal 8388608 May 27 16:07 user-1000@2c288072f59247b482fa9f4538e81956-000000000000fdf7-0006361b3f6b16af.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Jun  2 14:07 user-1000@2c288072f59247b482fa9f4538e81956-000000000000fe1c-0006361b509bf2a8.journal
+-rw-r-----+ 1 root systemd-journal 8388608 May  5 09:35 user-1000@868ce8a2c00349679297f02d9886a535-000000000000ed13-0006345b314f86ef.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr 20 16:54 user-1000@9cbde6535ca3452f85012d6f5ae93ca9-000000000000e1a2-000633338feb0e56.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr 30 09:31 user-1000@a51e21a41bfb4f1d902b04956b3c4808-000000000000ea76-000633f68edfc3d5.journal
+-rw-r-----+ 1 root systemd-journal 8388608 May 18 10:11 user-1000@b333a38c0a66406f8a4159e9ea2be49a-000000000000f884-0006356136060618.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Apr 29 11:06 user-1000@ce1a61e5573b470ea66c9cf47776bd2b-000000000000e7e0-000633e3c33e1fdb.journal
+
+/var/log/landscape:
+total 8
+drwxr-xr-x 2 landscape landscape 4096 Sep 28  2024 .
+drwxrwxr-x 9 root      syslog    4096 Jun 10 20:12 ..
+-rw-r--r-- 1 landscape landscape    0 Sep 28  2024 sysinfo.log
+
+/var/log/nginx:
+total 8
+drwxr-xr-x 2 root     adm    4096 Jun 10 20:12 .
+drwxrwxr-x 9 root     syslog 4096 Jun 10 20:12 ..
+-rw-r----- 1 www-data adm       0 Jun 10 20:12 access.log
+-rw-r----- 1 www-data adm       0 Jun 10 20:12 error.log
+
+/var/log/private:
+total 8
+drwx------ 2 root root   4096 Sep 28  2024 .
+drwxrwxr-x 9 root syslog 4096 Jun 10 20:12 ..
+
+/var/log/unattended-upgrades:
+total 40
+drwxr-x--- 2 root adm    4096 Jun  2 14:06 .
+drwxrwxr-x 9 root syslog 4096 Jun 10 20:12 ..
+-rw-r--r-- 1 root adm       0 May  5 09:35 unattended-upgrades-dpkg.log
+-rw-r--r-- 1 root adm    2194 Apr 20 16:59 unattended-upgrades-dpkg.log.1.gz
+-rw-r--r-- 1 root adm    1285 Mar 24 10:46 unattended-upgrades-dpkg.log.2.gz
+-rw-r--r-- 1 root root      0 Dec  9  2024 unattended-upgrades-shutdown.log
+-rw-r--r-- 1 root root    876 Jun 10 20:06 unattended-upgrades.log
+-rw-r--r-- 1 root root    554 May 27 16:15 unattended-upgrades.log.1.gz
+-rw-r--r-- 1 root root    980 Apr 20 16:59 unattended-upgrades.log.2.gz
+-rw-r--r-- 1 root root    710 Mar 24 11:05 unattended-upgrades.log.3.gz
+-rw-r--r-- 1 root root    444 Jan  2 15:37 unattended-upgrades.log.4.gz
+-rw-r--r-- 1 root root    486 Dec 23 16:24 unattended-upgrades.log.5.gz

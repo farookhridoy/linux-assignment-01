@@ -1,0 +1,22 @@
+total 68
+drwxr-x--- 8 binarywizard binarywizard 4096 May  5 09:37 .
+drwxr-xr-x 3 root         root         4096 Dec  9  2024 ..
+-rw------- 1 binarywizard binarywizard   54 Dec  9  2024 .Xauthority
+lrwxrwxrwx 1 binarywizard binarywizard   27 Dec  9  2024 .aws -> /mnt/c/Users/md.farook/.aws
+lrwxrwxrwx 1 binarywizard binarywizard   29 Dec  9  2024 .azure -> /mnt/c/Users/md.farook/.azure
+-rw------- 1 binarywizard binarywizard 2000 May 27 16:21 .bash_history
+-rw-r--r-- 1 binarywizard binarywizard  220 Dec  9  2024 .bash_logout
+-rw-r--r-- 1 binarywizard binarywizard 3771 Dec  9  2024 .bashrc
+drwx------ 4 binarywizard binarywizard 4096 Dec 23 16:18 .cache
+drwx------ 4 binarywizard binarywizard 4096 Apr  3 13:18 .config
+drwxr-xr-x 6 binarywizard binarywizard 4096 Dec 23 16:01 .docker
+drwxr-xr-x 2 binarywizard binarywizard 4096 Jan  2 09:40 .landscape
+-rw------- 1 binarywizard binarywizard   20 May  5 09:37 .lesshst
+-rw-r--r-- 1 binarywizard binarywizard    0 Jun 10 19:57 .motd_shown
+-rw-r--r-- 1 binarywizard binarywizard  807 Dec  9  2024 .profile
+-rw-r--r-- 1 binarywizard binarywizard    0 Dec  9  2024 .sudo_as_admin_successful
+-rw------- 1 binarywizard binarywizard  760 Apr  2 10:20 .viminfo
+drwxr-xr-x 3 binarywizard binarywizard 4096 Dec 23 16:18 .vscode-remote-containers
+drwxr-xr-x 5 binarywizard binarywizard 4096 Dec 23 16:18 .vscode-server
+-rw-r--r-- 1 binarywizard binarywizard  183 Dec 23 16:26 .wget-hsts
+-rwxr--r-- 1 binarywizard binarywizard   26 Apr  2 10:20 test.txt
