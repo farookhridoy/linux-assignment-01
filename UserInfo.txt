@@ -1,1 +1,5 @@
-IP Address: 172.28.114.68
+User name: binarywizard
+Shell name: /bin/bash
+Shell executable path: /bin/bash
+OS version: 24.04.2 LTS (Noble Numbat)
+OS name: Ubuntu

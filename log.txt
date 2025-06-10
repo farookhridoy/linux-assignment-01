@@ -1,5 +1,5 @@
 /var/log:
-total 1144
+total 1156
 drwxrwxr-x   9 root      syslog            4096 Jun 10 20:12 .
 drwxr-xr-x  14 root      root              4096 Jun 10 20:12 ..
 lrwxrwxrwx   1 root      root                39 Sep 28  2024 README -> ../../usr/share/doc/systemd/README.logs
@@ -8,7 +8,7 @@ lrwxrwxrwx   1 root      root                39 Sep 28  2024 README -> ../../usr
 -rw-r--r--   1 root      root               505 Mar 24 10:46 alternatives.log.2.gz
 -rw-r--r--   1 root      root              1695 Sep 28  2024 alternatives.log.3.gz
 drwxr-xr-x   2 root      root              4096 Jun 10 20:12 apt
--rw-r-----   1 syslog    adm               4102 Jun 10 20:14 auth.log
+-rw-r-----   1 syslog    adm               5106 Jun 10 20:22 auth.log
 -rw-r-----   1 syslog    adm               2155 Jun 10 19:57 auth.log.1
 -rw-r-----   1 syslog    adm                353 May 27 16:07 auth.log.2.gz
 -rw-r-----   1 syslog    adm                337 May 18 10:10 auth.log.3.gz
@@ -39,7 +39,7 @@ drwxr-xr-x   2 landscape landscape         4096 Sep 28  2024 landscape
 -rw-rw-r--   1 root      utmp                 0 Sep 28  2024 lastlog
 drwxr-xr-x   2 root      adm               4096 Jun 10 20:12 nginx
 drwx------   2 root      root              4096 Sep 28  2024 private
--rw-r-----   1 syslog    adm              36906 Jun 10 20:14 syslog
+-rw-r-----   1 syslog    adm              50104 Jun 10 20:22 syslog
 -rw-r-----   1 syslog    adm             168928 Jun 10 19:57 syslog.1
 -rw-r-----   1 syslog    adm              32512 May 27 16:07 syslog.2.gz
 -rw-r-----   1 syslog    adm              16512 May 18 10:10 syslog.3.gz
@@ -76,7 +76,7 @@ drwxr-sr-x+ 2 root systemd-journal 20480 Jun 10 19:58 a262e402254546a49f3df78159
 total 446152
 drwxr-sr-x+ 2 root systemd-journal   20480 Jun 10 19:58 .
 drwxr-sr-x+ 3 root systemd-journal    4096 Dec  9  2024 ..
--rw-r-----+ 1 root systemd-journal 8388608 Jun 10 20:14 system.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Jun 10 20:22 system.journal
 -rw-r-----+ 1 root systemd-journal 8388608 Apr 20 17:14 system@00063383d1798f3c-13539046ed4a9041.journal~
 -rw-r-----+ 1 root systemd-journal 8388608 Apr 24 16:39 system@000633e3c216dfd1-bd66b9334858c5f5.journal~
 -rw-r-----+ 1 root systemd-journal 8388608 Apr 29 11:06 system@000633f68dad017d-81e9aa1b56556bb6.journal~
@@ -161,7 +161,7 @@ drwxr-sr-x+ 3 root systemd-journal    4096 Dec  9  2024 ..
 -rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:12 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df39-0006320615190623.journal
 -rw-r-----+ 1 root systemd-journal 8388608 Apr  5 17:12 system@cc743904b4b446af8645a0b2e4afc2be-000000000000df3b-000632061566c6a8.journal
 -rw-r-----+ 1 root systemd-journal 8388608 Apr 29 11:06 system@ce1a61e5573b470ea66c9cf47776bd2b-000000000000e577-000633e3c215fb55.journal
--rw-r-----+ 1 root systemd-journal 8388608 Jun 10 20:14 user-1000.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Jun 10 20:22 user-1000.journal
 -rw-r-----+ 1 root systemd-journal 8388608 Apr 20 17:14 user-1000@00063383d25ab931-9c30c1f5a1d92166.journal~
 -rw-r-----+ 1 root systemd-journal 8388608 May  5 09:50 user-1000@0006346fdd02ff4c-e1310f65e724ab0a.journal~
 -rw-r-----+ 1 root systemd-journal 8388608 May  6 10:15 user-1000@000635613606097f-0b97ae12edd068a7.journal~
@@ -203,7 +203,7 @@ drwxrwxr-x 9 root syslog 4096 Jun 10 20:12 ..
 -rw-r--r-- 1 root adm    2194 Apr 20 16:59 unattended-upgrades-dpkg.log.1.gz
 -rw-r--r-- 1 root adm    1285 Mar 24 10:46 unattended-upgrades-dpkg.log.2.gz
 -rw-r--r-- 1 root root      0 Dec  9  2024 unattended-upgrades-shutdown.log
--rw-r--r-- 1 root root    876 Jun 10 20:06 unattended-upgrades.log
+-rw-r--r-- 1 root root   1644 Jun 10 20:22 unattended-upgrades.log
 -rw-r--r-- 1 root root    554 May 27 16:15 unattended-upgrades.log.1.gz
 -rw-r--r-- 1 root root    980 Apr 20 16:59 unattended-upgrades.log.2.gz
 -rw-r--r-- 1 root root    710 Mar 24 11:05 unattended-upgrades.log.3.gz

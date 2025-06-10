@@ -57,7 +57,7 @@ apt-get install -y nginx
 ip_address=$(hostname -I | awk '{print $1}')
 
 # Save ip address 
-cho -e "\nIP Address: $ip_address" >> "$script_dir/UserInfo.txt"
+echo -e "\nIP Address: $ip_address" >> "$script_dir/UserInfo.txt"
 
 # 12. Update nginx configuration
 sed -i "/server_name /c\    server_name $ip_address;" /etc/nginx/sites-available/default
